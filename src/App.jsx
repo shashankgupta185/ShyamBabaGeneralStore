@@ -11,6 +11,9 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function Layout({ children }) {
+
+
+  
   const [location] = useLocation();
   const isAuthOrCheckout = location === "/login" || location === "/checkout";
 
