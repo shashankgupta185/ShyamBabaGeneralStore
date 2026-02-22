@@ -86,7 +86,7 @@ const initDB = async () => {
     console.log("✅ PostgreSQL tables created successfully - schema.js:86");
 
   } catch (err) {
-    console.error("❌ Database init error: - schema.js:89", err.message);
+    console.error("❌ Database init error: - schema.js:89", err);
     throw err;
   }
 };
